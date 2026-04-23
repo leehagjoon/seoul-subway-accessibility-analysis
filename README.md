@@ -1,10 +1,6 @@
 # 🚇 서울시 지하철 교통약자 데이터 분석
 
 <p align="center">
-  <img src="./images/main.png" width="800"/>
-</p>
-
-<p align="center">
   <a href="https://your-notion-link">
     <img src="https://img.shields.io/badge/Notion-프로젝트_보기-black?style=for-the-badge&logo=notion">
   </a>
