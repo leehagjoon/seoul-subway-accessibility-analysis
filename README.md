@@ -1,2 +1,75 @@
-# -
-서울시 지하철 교통약자에 대한 분석 입니다.
+# 🚇 서울시 지하철 교통약자 데이터 분석
+
+<p align="center">
+  <img src="./images/main.png" width="800"/>
+</p>
+
+<p align="center">
+  <a href="https://your-notion-link">
+    <img src="https://img.shields.io/badge/Notion-프로젝트_보기-black?style=for-the-badge&logo=notion">
+  </a>
+  <a href="./docs/발표자료.pdf">
+    <img src="https://img.shields.io/badge/PDF-발표자료-red?style=for-the-badge&logo=adobeacrobatreader">
+  </a>
+</p>
+
+---
+
+## 📊 프로젝트 개요
+
+서울시 1~9호선 지하철 역을 대상으로
+교통약자의 이동 편의시설과 실제 이용 수요 간의
+**불균형을 분석한 데이터 프로젝트입니다.**
+
+---
+
+## 🧠 핵심 개념
+
+### ✔ 시설부하지수
+
+무임승하차 인원 / (EV × 4 + ES × 1)
+
+👉 “시설 대비 실제 이용 부담”을 나타내는 핵심 지표
+
+---
+
+## 🔍 분석 프로세스
+
+1. 데이터 수집 및 전처리
+2. EDA 및 지표 설계
+3. 시설부하지수 계산
+4. 상위 20% 기준 집중관리구역 도출
+5. 구조적 특성 분석 (노선, 심도, 환승 여부)
+
+---
+
+## 📈 주요 인사이트
+
+### 1️⃣ 구노선(1~4호선) 문제 집중
+
+### 2️⃣ 중간 심도(5~25m) 구간에서 부담 증가
+
+### 3️⃣ 비환승역에서 관리 공백 발생
+
+### 4️⃣ 복지시설 수와 직접적인 상관 없음
+
+---
+
+## 🚨 집중관리구역 TOP 5
+
+> 종로5가 · 청량리 · 제기동 · 미아사거리 · 상계
+
+---
+
+## 🛠 개선안
+
+* 탑승 위치 기반 엘리베이터 안내
+* 시설부하지수 기반 관리 체계
+* 노후 역사 중심 투자 전략
+
+---
+
+## ⚙️ 기술 스택
+
+* Python, Pandas, NumPy, Matplotlib
+* Notion, GitHub
